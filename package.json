@@ -1,0 +1,16 @@
+{
+  "name": "family-tv",
+  "description": "FamilyTV - Movie and TV show hosting platform with HLS stream resolution",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.52",
+    "express": "^4.21.2",
+    "happy-dom": "^20.0.10"
+  }
+}
